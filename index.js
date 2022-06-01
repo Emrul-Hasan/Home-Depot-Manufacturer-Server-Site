@@ -408,7 +408,7 @@ run().catch(console.dir);
 
 // check server root api
 app.get('/', (req, res) => {
-    res.send('Manufacturer company is ready to supply tools')
+    res.send('Home Depot Manufacturer company is ready to supply tools')
 });
 
 
